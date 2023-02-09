@@ -1,0 +1,349 @@
+.sticky {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  top: 0px;
+  background-color: #202020;
+  left: 0px;
+}
+
+.titel{
+  position: absolute;
+  max-height: 40px;
+  color: white;
+  width: 18.18%;
+  top: 30px;
+  left: 0%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.scroll{
+  position: relative;
+  background-color: white;
+  height: 0px;
+  padding-bottom: 24%;
+  width: 80%;
+  top: 130px;
+  margin: auto;
+}
+
+.post{
+  position: absolute;
+  background-color: transparant;    //moet uiteindelijk transparant worden
+  height: 0;
+  padding-bottom: 32%;
+  width: 47%;
+  left: 0%;
+  overflow: hidden;
+  border-radius: 2px;
+  color: white;
+}
+
+.name{
+  position: absolute;
+  background-color: #202020;
+  width: 100%;
+  height: 0;
+  padding-bottom: 6.25%;
+  bottom: 0px;
+}
+
+.name2{
+  position: absolute;
+  color: white;
+  background-color: #202020;
+  font-size: 1vw;
+  left: 5%;
+  top: 50%;
+  transform: translate(-5%,-50%);
+}
+
+.name3{
+  position: absolute;
+  color: white;
+  background-color: #202020;
+  font-size: 1vw;
+  right: 5%;
+  top: 50%;
+  transform: translate(5%,-50%);
+}
+
+.inner{
+  position:absolute;
+  height: 105%;
+  width: 105%;
+  background: ;
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+  filter: blur(2px);
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-56.25%);
+
+}
+
+.foto{
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.footer {
+   position: fixed;
+   height: 20px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+}
+
+.footer_ {
+  position: absolute;
+   height: 20px;
+   left: 0;
+   bottom: -20px;
+   width: 100%;
+   background-color: white;
+}
+
+.button1{
+  position: absolute;
+  height: 20px;
+  font-size: 20px;
+  color:white;
+  width: 14.285%;
+  left: calc(1*(100% / 6));
+  text-align: center;
+  top: 40px;
+
+}
+
+.button2{
+  position: absolute;
+  height: 20px;
+  font-size: 20px;
+  color:white;
+  width: 14.285%;
+  left: calc(2*(100% / 6));
+  text-align: center;
+  top: 40px;
+}
+
+.button3{
+  position: absolute;
+  height: 20px;
+  font-size: 20px;
+  color:white;
+  width: 14.285%;
+  left: calc(3*(100% / 6));
+  text-align: center;
+  top: 40px;
+
+}
+
+.button4{
+  position: absolute;
+  height: 20px;
+  font-size: 20px;
+  color:white;
+  width: 14.285%;
+  left: calc(4*(100% / 6));
+  text-align: center;
+  top: 40px;
+
+}
+
+.button5{
+  position: absolute;
+  height: 30px;
+  font-size: 20px;
+  color:white;
+  width: 14.285%;
+  left: calc(5*(100% / 6));
+  text-align: center;
+  top: 35px;
+  background: url(zoek3.png) center no-repeat;
+	background-size: 65%;
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family: Helvetica , sans-serif;
+  font-weight: bold;
+}
+
+
+/*
+.sticky {
+  position: fixed;
+  height: 110px;
+  width: 100%;
+  top: 0px;
+  background-color: #202020;
+  left: 0px;
+}
+
+.titel{
+  position: absolute;
+  height: 20px;
+  color: white;
+  width: 160px;
+  top: 20px;
+  left: 20px;
+  text-align: left;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.scroll{
+  position: relative;
+  background-color: white;
+  height: 0px;
+  padding-bottom: 24%;
+  width: 80%;
+  top: 130px;
+  margin: auto;
+}
+
+.post{
+  position: absolute;
+  background-color: #202020;    //moet uiteindelijk transparant worden
+  height: 0;
+  padding-bottom: 32%;
+  width: 47%;
+  left: 0%;
+  overflow: hidden;
+  border-radius: 2px;
+  color: white;
+}
+
+.name{
+  position: absolute;
+  background-color: #202020;
+  width: 100%;
+  height: 0;
+  padding-bottom: 6.25%;
+  bottom: 0px;
+}
+
+.name2{
+  position: absolute;
+  color: white;
+  background-color: #202020;
+  font-size: 1vw;
+  left: 5%;
+  top: 50%;
+  transform: translate(-5%,-50%);
+
+}
+
+.inner{
+  position:absolute;
+  height: 105%;
+  width: 105%;
+  background: url(Landscape.jpg) center no-repeat;
+	background-size: cover;
+  filter: blur(2px);
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-56.25%);
+
+}
+
+.foto{
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.footer {
+   position: fixed;
+   height: 20px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+}
+
+.footer_ {
+  position: absolute;
+   height: 20px;
+   left: 0;
+   bottom: -20px;
+   width: 100%;
+   background-color: white;
+}
+
+.button1{
+  position: absolute;
+  height: 20px;
+  color:white;
+  width: 9.09%;
+  top: 80px;
+  left: 9.09%;
+  text-align: center;
+}
+
+.button2{
+  position: absolute;
+  height: 20px;
+  color: white;
+  width: 9.09%;
+  top: 80px;
+  left: 27.27%;
+  text-align: center;
+}
+
+.button3{
+  position: absolute;
+  height: 20px;
+  color: white;
+  width: 9.09%;
+  top: 80px;
+  left: 45.45%;
+  text-align: center;
+}
+
+.button4{
+  position: absolute;
+  height: 20px;
+  color:white;
+  width: 9.09%;
+  top: 80px;
+  left: 63.63%;
+  text-align: center;
+}
+
+.button5{
+  position: absolute;
+  height: 20px;
+  color: white;
+  width: 9.09%;
+  top: 80px;
+  left: 81.81%;
+  text-align: center;
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family: Helvetica , sans-serif;
+  font-weight: bold;
+}
